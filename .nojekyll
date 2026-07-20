@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anzu Aero | Advanced Aerospace & Stealth R&D</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            color: #f8fafc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            background-image: 
+                linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+                linear-gradient(135deg, #091024 0%, #172a6c 50%, #0e6b72 100%);
+            background-size: 30px 30px, 30px 30px, cover;
+            background-attachment: fixed;
+            background-position: center center;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background: rgba(9, 16, 36, 0.7);
+            backdrop-filter: blur(15px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 800;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            color: #22d3ee;
+        }
+
+        nav a {
+            color: #f8fafc;
+            text-decoration: none;
+            margin-left: 30px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            padding-bottom: 5px;
+            border-bottom: 2px solid transparent;
+        }
+
+        nav a:hover, nav a.active {
+            color: #22d3ee;
+            border-bottom: 2px solid #22d3ee;
+        }
+
+        .container {
+            max-width: 1050px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        .hero, .section {
+            background: rgba(15, 25, 50, 0.5);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 70px 30px;
+        }
+
+        h1 {
+            color: #ffffff;
+            font-size: 2.8rem;
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #22d3ee;
+        }
+
+        h2 {
+            color: #22d3ee;
+            font-size: 1.8rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 15px;
+            margin-top: 0;
+            display: inline-block;
+        }
+
+        .subtitle {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            margin-bottom: 30px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            background: rgba(34, 211, 238, 0.1);
+            border: 1px solid #22d3ee;
+            color: #22d3ee;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            margin-top: 15px;
+        }
+
+        .image-placeholder {
+            width: 100%;
+            height: 280px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(34, 211, 238, 0.3);
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #22d3ee;
+            margin: 25px 0 15px 0;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #94a3b8;
+            background: rgba(9, 16, 36, 0.8);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            header { flex-direction: column; gap: 15px; padding: 20px; }
+            nav a { margin: 0 10px; }
+            h1 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">ANZU <span>AERO</span></div>
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="contact.html">Contact & Partners</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        
+        <div class="hero">
+            <h1>Advanced Aerospace <span>&amp; Stealth R&amp;D</span></h1>
+            <p class="subtitle">An advanced R&D company specializing in aerospace technologies, aerodynamics, and dual-use innovations.</p>
+            <div class="status-badge">Phase: Founding & Startup | Lead Researcher Initiated</div>
+        </div>
+
+        <div class="section">
+            <h2>The "Anzu" Strategic Project</h2>
+            <p>The Anzu project stands as our premier comprehensive scientific research initiative featuring advanced conceptual designs in modern aviation. The project integrates unique modern stealth innovations combining <strong>aerodynamic body power</strong> with <strong>radar cross-section (RCS) stealth</strong> (a two-in-one solution), utilizing lightweight composite materials optimized for exceptional performance and efficiency across both domains.</p>
+            
+            <div class="image-placeholder">
+                [Placeholder: Anzu Project Conceptual Blueprint / Design Overview]
+            </div>
+            <p style="text-align: center; color: #94a3b8; font-size: 0.95rem;">Figure 1: Conceptual integration of aerodynamic body control and radar stealth.</p>
+        </div>
+
+        <div class="section">
+            <h2>Aerodynamics & Dual-Use Technologies</h2>
+            <p>Alongside the Anzu project, our research portfolio includes advanced studies in <strong>aerodynamics</strong>, fluid/gas flow analysis, and high-performance dual-use engineering applications designed to meet rigorous civilian and military requirements.</p>
+            
+            <div class="image-placeholder">
+                [Placeholder: CFD Simulation Results or Composite Material Analysis]
+            </div>
+            <p style="text-align: center; color: #94a3b8; font-size: 0.95rem;">Figure 2: Drag analysis and aerodynamic efficiency studies.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Anzu Aero. All rights reserved by Lead Researcher Ahmed.</p>
+    </footer>
+
+</body>
+</html>
